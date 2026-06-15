@@ -3,14 +3,14 @@ const CONFIG = {
   MAGZINE_HOME_BANNER_ENABLE: true, // 首屏右上角的宣传位
   MAGZINE_HOME_BUTTON: true,
   MAGZINE_HOME_BUTTON_URL: '/about',
-  MAGZINE_HOME_BUTTON_TEXT: '了解更多',
+  MAGZINE_HOME_BUTTON_TEXT: '欢迎光临楊飛躍的博客',
 
   MAGZINE_HOME_HIDDEN_CATEGORY: '分享杂文', //不希望在首页展示的文章分类，用英文逗号隔开
 
-  MAGZINE_HOME_TITLE: '立即开创您的在线业务。完全免费。',
+  MAGZINE_HOME_TITLE: '',
   MAGZINE_HOME_DESCRIPTION:
-    '借助NotionNext，获得助您开创、经营和扩展业务所需的全部工具和帮助。',
-  MAGZINE_HOME_TIPS: 'AI时代来临，这是属于超级个体的狂欢盛宴！',
+    '',
+  MAGZINE_HOME_TIPS: '',
 
   MAGZINE_HERO_SUB_POST_COUNT: 2, // 首屏英雄区次要文章数量，通常2篇，如果关闭Banner，推荐改为3篇
 
