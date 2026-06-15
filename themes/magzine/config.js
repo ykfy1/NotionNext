@@ -34,9 +34,7 @@ const CONFIG = {
   // 文章页面联系卡
   MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
-  MAGZINE_SOCIAL_CARD_TITLE_2: '加入社群讨论分享',
-  MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  MAGZINE_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/chat-community',
+  MAGZINE_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.eu.cc/',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
@@ -44,34 +42,26 @@ const CONFIG = {
       name: '友情链接',
       menus: [
         {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
+          title: '楊飛躍的博客',
+          href: 'https://blog.yangfeiyue.eu.cc/'
         },
         {
-          title: 'NotionNext',
-          href: 'https://www.tangly1024.com'
+          title: '楊飛躍',
+          href: 'https://blog.yangfeiyue.eu.cc/'
         }
       ]
     },
-    {
-      name: '开发者',
-      menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-        {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-        },
         {
           title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+          href: 'https://blog.yangfeiyue.eu.cc/'
         },
         {
           title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
+          href: 'https://github.com/'
         },
         {
           title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
+          href: 'https://blog.yangfeiyue.eu.cc/about'
         }
       ]
     },
@@ -79,29 +69,16 @@ const CONFIG = {
       name: '支持',
       menus: [
         {
-          title: '站长社群',
-          href: 'https://docs.tangly1024.com/article/chat-community'
-        },
-        {
-          title: '咨询与定制',
-          href: 'https://docs.tangly1024.com/article/my-service'
-        },
-        {
-          title: '升级手册',
-          href: 'https://docs.tangly1024.com/article/my-service'
-        },
-        {
           title: '安装教程',
-          href: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          href: 'https://blog.yangfeiyue.eu.cc/about'
         },
-        { title: 'SEO推广', href: 'https://seo.tangly1024.com/' }
       ]
     },
     {
       name: '解决方案',
       menus: [
-        { title: '建站工具', href: 'https://www.tangly1024.com/' },
-        { title: 'NotionNext', href: 'https://docs.tangly1024.com/about' }
+        { title: '建站工具', href: 'https://blog.yangfeiyue.eu.cc/' },
+        { title: '楊飛躍', href: 'https://blog.yangfeiyue.eu.cc/about' }
       ]
     }
   ],
