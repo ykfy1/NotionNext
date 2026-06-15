@@ -34,7 +34,7 @@ const CONFIG = {
   // 文章页面联系卡
   MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
-  MAGZINE_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.eu.cc/',
+  MAGZINE_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.eu.cc',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
