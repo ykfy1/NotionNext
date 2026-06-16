@@ -1,8 +1,8 @@
 const CONFIG = {
   // 首屏信息栏按钮文字
-  MAGZINE_HOME_BANNER_ENABLE: true, // 首屏右上角的宣传位
+  MAGZINE_HOME_BANNER_ENABLE: false, // 首屏右上角的宣传位
   MAGZINE_HOME_BUTTON: true,
-  MAGZINE_HOME_BUTTON_URL: '/about',
+  MAGZINE_HOME_BUTTON_URL: '/',
   MAGZINE_HOME_BUTTON_TEXT: '欢迎来到我的博客',
 
   MAGZINE_HOME_HIDDEN_CATEGORY: '分享杂文', //不希望在首页展示的文章分类，用英文逗号隔开
@@ -76,7 +76,7 @@ const CONFIG = {
       ]
     },
     {
-      name: '支持',
+      name: '',
       menus: [
         {
           title: '',
@@ -98,7 +98,7 @@ const CONFIG = {
       ]
     },
     {
-      name: '解决方案',
+      name: '',
       menus: [
         { title: '', href: '' },
         { title: '', href: '' }
