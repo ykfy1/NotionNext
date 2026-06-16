@@ -1,19 +1,19 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Github开源',
-  LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
+  LANDING_HEADER_BUTTON_1_URL: 'https://github.com/',
 
-  LANDING_HEADER_BUTTON_2_TITLE: '作者博客',
-  LANDING_HEADER_BUTTON_2_URL: 'https://blog.tangly1024.com/',
+  LANDING_HEADER_BUTTON_2_TITLE: '楊飛躍的博客',
+  LANDING_HEADER_BUTTON_2_URL: 'https://blog.yangfeiyue.eu.cc/',
 
   // 首页大图英雄板块
-  LANDING_HERO_TITLE_1: 'NotionNext',
-  LANDING_HERO_P_1: '快速搭建独立站、轻松放大品牌价值！',
-  LANDING_HERO_BUTTON_1_TEXT: '开始体验',
-  LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  LANDING_HERO_BUTTON_2_TEXT: '了解更多',
-  LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
-  LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
+  LANDING_HERO_TITLE_1: '',
+  LANDING_HERO_P_1: '',
+  LANDING_HERO_BUTTON_1_TEXT: '',
+  LANDING_HERO_BUTTON_1_LINK: '',
+  LANDING_HERO_BUTTON_2_TEXT: '',
+  LANDING_HERO_BUTTON_2_LINK: '',
+  LANDING_HERO_VIDEO_IMAGE: '',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
   LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
@@ -51,35 +51,35 @@ const CONFIG = {
   LANDING_TESTIMONIALS_P: '网站内容涵盖地产、教育、建筑、医学、机械、IT、电子、软件、自媒体、数位游民、短视频、电商、学生、摄影爱好者、旅行爱好者等等各行各业',
 
   LANDING_TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-  LANDING_TESTIMONIALS_NICKNAME: 'Ryan_G',
-  LANDING_TESTIMONIALS_ID: 'Ryan`Log 站长',
-  LANDING_TESTIMONIALS_SOCIAL_NAME: '@Gaoran',
-  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://blog.gaoran.xyz/',
-  LANDING_TESTIMONIALS_WORD: '“ 感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ “',
+  LANDING_TESTIMONIALS_NICKNAME: '',
+  LANDING_TESTIMONIALS_ID: '',
+  LANDING_TESTIMONIALS_SOCIAL_NAME: '',
+  LANDING_TESTIMONIALS_SOCIAL_URL: '',
+  LANDING_TESTIMONIALS_WORD: '“ “',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
+  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.yangfeiyue.eu.cc/', // 重定向网站地址
 
-  LANDING_PRICING_TITLE: '价格表',
-  LANDING_PRICING_P: 'NotionNext开源免费，此处仅演示订阅付费功能！请勿购买！',
+  LANDING_PRICING_TITLE: '',
+  LANDING_PRICING_P: '',
 
-  LANDING_PRICING_1_TITLE: '个人版',
-  LANDING_PRICING_1_PRICE: '免费',
-  LANDING_PRICING_1_CONTENT: '项目源代码,部署教程,不定时技术答疑',
-  LANDING_PRICING_1_BUTTON: '开始体验',
-  LANDING_PRICING_1_URL: 'https://docs.tangly1024.com/about',
+  LANDING_PRICING_1_TITLE: '',
+  LANDING_PRICING_1_PRICE: '',
+  LANDING_PRICING_1_CONTENT: '',
+  LANDING_PRICING_1_BUTTON: '',
+  LANDING_PRICING_1_URL: '',
 
-  LANDING_PRICING_2_TITLE: '捐赠版',
-  LANDING_PRICING_2_PRICE: '$9.9/月',
-  LANDING_PRICING_2_CONTENT: '项目源代码,部署教程,长期技术答疑,代码升级合并,内部社群',
-  LANDING_PRICING_2_BUTTON: '立即购买',
-  LANDING_PRICING_2_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/0adb9153-0799-4f51-91aa-1f06391ea4e0',
+  LANDING_PRICING_2_TITLE: '',
+  LANDING_PRICING_2_PRICE: '',
+  LANDING_PRICING_2_CONTENT: '',
+  LANDING_PRICING_2_BUTTON: '',
+  LANDING_PRICING_2_URL: '',
 
-  LANDING_PRICING_3_TITLE: '企业版',
-  LANDING_PRICING_3_PRICE: '$59/月',
-  LANDING_PRICING_3_CONTENT: '项目源代码,部署教程,VIP技术咨询,代码升级合并,内部社群,定制功能开发,SEO优化',
-  LANDING_PRICING_3_BUTTON: '立即购买',
-  LANDING_PRICING_3_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
+  LANDING_PRICING_3_TITLE: '',
+  LANDING_PRICING_3_PRICE: '',
+  LANDING_PRICING_3_CONTENT: '',
+  LANDING_PRICING_3_BUTTON: '',
+  LANDING_PRICING_3_URL: '',
 
   LANDING_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
