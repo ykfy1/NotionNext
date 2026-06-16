@@ -3,14 +3,14 @@ const CONFIG = {
   MAGZINE_HOME_BANNER_ENABLE: true, // 首屏右上角的宣传位
   MAGZINE_HOME_BUTTON: true,
   MAGZINE_HOME_BUTTON_URL: '/about',
-  MAGZINE_HOME_BUTTON_TEXT: '了解更多',
+  MAGZINE_HOME_BUTTON_TEXT: '欢迎来到我的博客',
 
   MAGZINE_HOME_HIDDEN_CATEGORY: '分享杂文', //不希望在首页展示的文章分类，用英文逗号隔开
 
-  MAGZINE_HOME_TITLE: '立即开创您的在线业务。完全免费。',
+  MAGZINE_HOME_TITLE: '楊飛躍',
   MAGZINE_HOME_DESCRIPTION:
-    '借助NotionNext，获得助您开创、经营和扩展业务所需的全部工具和帮助。',
-  MAGZINE_HOME_TIPS: 'AI时代来临，这是属于超级个体的狂欢盛宴！',
+    '',
+  MAGZINE_HOME_TIPS: '',
 
   MAGZINE_HERO_SUB_POST_COUNT: 2, // 首屏英雄区次要文章数量，通常2篇，如果关闭Banner，推荐改为3篇
 
@@ -32,11 +32,11 @@ const CONFIG = {
   MAGZINE_POST_DETAIL_TAG: true, // 文章显示标签
 
   // 文章页面联系卡
-  MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  MAGZINE_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
-  MAGZINE_SOCIAL_CARD_TITLE_2: '加入社群讨论分享',
+  MAGZINE_SOCIAL_CARD_TITLE_2: '社群讨论分享',
   MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  MAGZINE_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/chat-community',
+  MAGZINE_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.eu.cc/',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
@@ -44,34 +44,34 @@ const CONFIG = {
       name: '友情链接',
       menus: [
         {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
+          title: '楊飛躍的博客',
+          href: 'https://blog.yangfeiyue.eu.cc/'
         },
         {
           title: 'NotionNext',
-          href: 'https://www.tangly1024.com'
+          href: 'https://blog.yangfeiyue.eu.cc/'
         }
       ]
     },
     {
       name: '开发者',
       menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+        { title: 'Github', href: 'https://github.com/' },
         {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+          title: '',
+          href: ''
         },
         {
-          title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+          title: '',
+          href: ''
         },
         {
           title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
+          href: 'https://github.com/'
         },
         {
           title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
+          href: 'https://blog.yangfeiyue.eu.cc/about'
         }
       ]
     },
@@ -79,29 +79,29 @@ const CONFIG = {
       name: '支持',
       menus: [
         {
-          title: '站长社群',
-          href: 'https://docs.tangly1024.com/article/chat-community'
+          title: '',
+          href: ''
         },
         {
-          title: '咨询与定制',
-          href: 'https://docs.tangly1024.com/article/my-service'
+          title: '',
+          href: ''
         },
         {
-          title: '升级手册',
-          href: 'https://docs.tangly1024.com/article/my-service'
+          title: '',
+          href: ''
         },
         {
-          title: '安装教程',
-          href: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          title: '',
+          href: ''
         },
-        { title: 'SEO推广', href: 'https://seo.tangly1024.com/' }
+        { title: '', href: '' }
       ]
     },
     {
       name: '解决方案',
       menus: [
-        { title: '建站工具', href: 'https://www.tangly1024.com/' },
-        { title: 'NotionNext', href: 'https://docs.tangly1024.com/about' }
+        { title: '', href: '' },
+        { title: '', href: '' }
       ]
     }
   ],
