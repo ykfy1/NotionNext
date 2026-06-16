@@ -11,7 +11,7 @@ const CONFIG = {
   LANDING_HERO_P_1: '快速搭建独立站',
   LANDING_HERO_BUTTON_1_TEXT: '开始体验',
   LANDING_HERO_BUTTON_1_LINK: '',
-  LANDING_HERO_BUTTON_2_TEXT: '',
+  LANDING_HERO_BUTTON_2_TEXT: '了解更多',
   LANDING_HERO_BUTTON_2_LINK: '',
   LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
@@ -58,7 +58,7 @@ const CONFIG = {
   LANDING_TESTIMONIALS_WORD: '',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.yangfeiyue.eu.cc/', // 重定向网站地址
+  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.yangfeiyue.eu.cc/?theme=hexo', // 重定向网站地址
 
   LANDING_PRICING_TITLE: '',
   LANDING_PRICING_P: '',
