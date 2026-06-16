@@ -70,7 +70,7 @@ const CONFIG = {
           href: 'https://github.com/'
         },
         {
-          title: '关于作者',
+          title: '关于',
           href: 'https://blog.yangfeiyue.eu.cc/about'
         }
       ]
