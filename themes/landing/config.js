@@ -7,13 +7,13 @@ const CONFIG = {
   LANDING_HEADER_BUTTON_2_URL: 'https://blog.yangfeiyue.eu.cc/?theme=hexo',
 
   // 首页大图英雄板块
-  LANDING_HERO_TITLE_1: '',
-  LANDING_HERO_P_1: '',
-  LANDING_HERO_BUTTON_1_TEXT: '',
+  LANDING_HERO_TITLE_1: 'NotionNext',
+  LANDING_HERO_P_1: '快速搭建独立站',
+  LANDING_HERO_BUTTON_1_TEXT: '开始体验',
   LANDING_HERO_BUTTON_1_LINK: '',
   LANDING_HERO_BUTTON_2_TEXT: '',
   LANDING_HERO_BUTTON_2_LINK: '',
-  LANDING_HERO_VIDEO_IMAGE: '',
+  LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
   LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
