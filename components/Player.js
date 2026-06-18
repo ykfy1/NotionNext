@@ -69,7 +69,7 @@ const Player = () => {
       {meting ? (
         <meting-js
           fixed='true'
-          type='toplist'
+          type='top'
           preload='auto'
           api={siteConfig(
             'MUSIC_PLAYER_METING_API',
