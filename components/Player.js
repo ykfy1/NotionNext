@@ -69,11 +69,11 @@ const Player = () => {
       {meting ? (
         <meting-js
           fixed='true'
-          type='top'
+          type='playlist'
           preload='auto'
           api={siteConfig(
             'MUSIC_PLAYER_METING_API',
-            'https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r'
+            'https://api.injahow.cn/meting/api?server=:server&type=:type&id=:id&r=:r'
           )}
           autoplay={autoPlay}
           order={siteConfig('MUSIC_PLAYER_ORDER')}
