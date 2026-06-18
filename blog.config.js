@@ -54,7 +54,7 @@ const BLOG = {
   // 自定义外部脚本，外部样式
   CUSTOM_EXTERNAL_JS: [
     'https://myhkw.cn/player/js/jquery.min.js',
-    'https://myhkw.cn/api/player/demo?id=myhk&key=demo&m=1&au=0&lr=r&pjax=1'
+    'https://myhkw.cn/api/player/177994784754" key="177994784754" m="1'
   ], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
