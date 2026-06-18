@@ -12,7 +12,7 @@ import { useEffect, useRef, useState } from 'react'
 const Twikoo = ({ isDarkMode }) => {
   const envId = siteConfig('COMMENT_TWIKOO_ENV_ID')
   const el = siteConfig('COMMENT_TWIKOO_ELEMENT_ID', '#twikoo')
-  const twikooCDNURL = "https://registry.npmmirror.com/twikoo/1.7.12/files/dist/twikoo.min.js"
+  const twikooCDNURL = "https://registry.npmmirror.com/twikoo/1.7.9/files/dist/twikoo.min.js"
   const lang = "zh-CN"
   const [isInit] = useState(useRef(false))
 
