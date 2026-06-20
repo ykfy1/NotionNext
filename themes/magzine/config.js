@@ -2,7 +2,7 @@ const CONFIG = {
   // 首屏信息栏按钮文字
   MAGZINE_HOME_BANNER_ENABLE: false, // 首屏右上角的宣传位
   MAGZINE_HOME_BUTTON: true,
-  MAGZINE_HOME_BUTTON_URL: 'https://blog.yangfeiyue.eu.cc/?theme=hexo',
+  MAGZINE_HOME_BUTTON_URL: 'https://blog.yangfeiyue.cc.cd/?theme=hexo',
   MAGZINE_HOME_BUTTON_TEXT: '欢迎来到我的博客',
 
   MAGZINE_HOME_HIDDEN_CATEGORY: '分享杂文', //不希望在首页展示的文章分类，用英文逗号隔开
@@ -36,7 +36,7 @@ const CONFIG = {
   MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
   MAGZINE_SOCIAL_CARD_TITLE_2: '社群讨论分享',
   MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  MAGZINE_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.eu.cc/?theme=hexo',
+  MAGZINE_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.cc.cd/?theme=hexo',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
@@ -45,11 +45,11 @@ const CONFIG = {
       menus: [
         {
           title: '楊飛躍的博客',
-          href: 'https://blog.yangfeiyue.eu.cc/?theme=hexo'
+          href: 'https://blog.yangfeiyue.cc.cd/?theme=hexo'
         },
         {
           title: 'NotionNext',
-          href: 'https://blog.yangfeiyue.eu.cc/?theme=hexo'
+          href: 'https://blog.yangfeiyue.cc.cd/?theme=hexo'
         }
       ]
     },
@@ -71,7 +71,7 @@ const CONFIG = {
         },
         {
           title: '关于',
-          href: 'https://blog.yangfeiyue.eu.cc/about?theme=hexo'
+          href: 'https://blog.yangfeiyue.cc.cd/about?theme=hexo'
         }
       ]
     },
