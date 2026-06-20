@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '我是楊飛躍,欢迎来到我的博客', url: 'https://blog.yangfeiyue.eu.cc' },
-    { title: '访问文档中心获取更多帮助', url: 'https://blog.yangfeiyue.eu.cc' }
+    { title: '我是楊飛躍,欢迎来到我的博客', url: 'https://blog.yangfeiyue.cc.cd' },
+    { title: '访问文档中心获取更多帮助', url: 'https://blog.yangfeiyue.cc.cd' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,10 +20,10 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'BLOG.YANGFEIYUE.EU.CC',
+  HEO_HERO_TITLE_3: 'BLOG.YANGFEIYUE.cc.cd',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://blog.yangfeiyue.eu.cc',
+  HEO_HERO_TITLE_LINK: 'https://blog.yangfeiyue.cc.cd',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
@@ -56,7 +56,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://blog.yangfeiyue.eu.cc',
+  HEO_INFO_CARD_URL3: 'https://blog.yangfeiyue.cc.cd',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
@@ -123,7 +123,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.eu.cc',
+  HEO_SOCIAL_CARD_URL: 'https://blog.yangfeiyue.cc.cd',
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
