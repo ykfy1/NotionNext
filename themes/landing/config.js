@@ -4,7 +4,7 @@ const CONFIG = {
   LANDING_HEADER_BUTTON_1_URL: 'https://github.com/',
 
   LANDING_HEADER_BUTTON_2_TITLE: '楊飛躍的博客',
-  LANDING_HEADER_BUTTON_2_URL: 'https://blog.yangfeiyue.eu.cc/?theme=hexo',
+  LANDING_HEADER_BUTTON_2_URL: 'https://blog.yangfeiyue.cc.cd/?theme=hexo',
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'NotionNext',
@@ -58,7 +58,7 @@ const CONFIG = {
   LANDING_TESTIMONIALS_WORD: '',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.yangfeiyue.eu.cc/?theme=hexo', // 重定向网站地址
+  LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.yangfeiyue.cc.cd/?theme=hexo', // 重定向网站地址
 
   LANDING_PRICING_TITLE: '',
   LANDING_PRICING_P: '',
