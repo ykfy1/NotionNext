@@ -9,7 +9,7 @@ export default function PoweredBy(props) {
     <div className={`inline text-sm font-serif ${props.className || ''}`}>
       <span className='mr-1'>Powered by</span>
       <a
-        href='https://blog.yangfeiyue.eu.cc/'
+        href='https://blog.yangfeiyue.cc.cd/'
         className='underline justify-start'>
         NotionNext {siteConfig('VERSION')}
       </a>
